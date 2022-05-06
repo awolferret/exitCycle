@@ -13,7 +13,7 @@ namespace ConsoleApp1
                 exitCommand = Console.ReadLine();
             }
             while (exitCommand != "exit");
-            Console.WriteLine("Выход из цыкла");
+            Console.WriteLine("Выход из цикла");
         }
     }
 }
