@@ -7,6 +7,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             string exitCommand;
+
             do
             {
                 Console.WriteLine("Чтобы закончить введите exit");
