@@ -11,7 +11,7 @@ namespace ConsoleApp1
 
             do
             {
-                Console.WriteLine("Чтобы закончить введите exit");
+                Console.WriteLine($"Чтобы закончить введите {exit}");
                 exitCommand = Console.ReadLine();
             }
             while (exitCommand != exit);
