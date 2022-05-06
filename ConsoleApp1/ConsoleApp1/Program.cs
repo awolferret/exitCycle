@@ -6,17 +6,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            while (true)
+            string exitCommand;
+            do
             {
                 Console.WriteLine("Чтобы закончить введите exit");
-                string exitCommand = Console.ReadLine();
-
-                if (exitCommand == "exit")
-                {
-                    Console.WriteLine("Выход из цикла");
-                    break;
-                }
+                exitCommand = Console.ReadLine();
             }
+            while (exitCommand != "exit");
+            Console.WriteLine("Выход из цыкла");
         }
     }
 }
