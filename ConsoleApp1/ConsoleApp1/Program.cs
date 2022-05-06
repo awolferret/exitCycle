@@ -9,9 +9,9 @@ namespace ConsoleApp1
             while (true)
             {
                 Console.WriteLine("Чтобы закончить введите exit");
-                string exit = Console.ReadLine();
+                string exitCommand = Console.ReadLine();
 
-                if (exit == "exit")
+                if (exitCommand == "exit")
                 {
                     Console.WriteLine("Выход из цикла");
                     break;
